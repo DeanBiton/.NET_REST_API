@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "BuberBreakfast.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/BuberBreakfast.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BuberBreakfast.Contracts.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "BuberBreakfast.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../BuberBreakfast.Contracts/BuberBreakfast.Contracts.csproj",
-      "msbuildProject": "../BuberBreakfast.Contracts/BuberBreakfast.Contracts.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "BuberBreakfast.Contracts >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
-      "projectName": "BuberBreakfast",
-      "projectPath": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+      "projectName": "BuberBreakfast.Contracts",
+      "projectPath": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -80,9 +57,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
